@@ -1,0 +1,133 @@
+/*  folha de estilo*/
+
+
+
+body{
+    background-image: url(rolhas-de-vinho-na-mesa.jpg);
+    font-family: 'Roboto', sans-serif;
+    background-size: cover;
+}
+
+div{
+
+   background-color: #ffffff;
+
+   
+   width: 340px;
+   height: auto;
+   border-radius: 10px;
+
+ margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+
+padding: 30px;
+box-sizing: border-box;/*faz com que as dimensoes sejam respeitadas mesmo pedding*/
+text-align: center;
+
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+
+
+img{
+
+    width: 100px;
+    margin-bottom: 30px;
+
+
+    /*border-radius: 50%;
+    border: solid 2px #7F8487;
+
+   /* border-radius: 50%;
+    border-width: 5px;
+    border-color: #7F8487;
+    border-style: solid;*/
+}
+
+img:hover{
+
+    width: 200px;
+}
+
+
+.logo{
+    width: 200px;
+
+}
+
+h1{
+color: #49061B;
+font-size: 32px;
+
+}
+
+h2{
+ color: #810CA8;
+ font-size: 20px;
+
+}
+
+p{
+
+    color:#7F8487;
+    
+}
+
+ul{
+
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 16px;
+
+}
+
+
+ul{
+    margin: 0 0 30px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a{
+background-color: #49061B;
+color:  #b3bcc2;
+display: block;
+margin-bottom: 5px;
+border-radius: 3px;
+padding-top: 10px;
+padding-bottom: 10px;
+text-decoration: none;
+}
+
+
+ul a:hover{
+
+    background-color: #4E1037;
+    color: #b3bcc2;
+}
+
+#link-footer{ 
+    
+    color: #7F8487;
+
+
+}
+
+.clau{
+    font-size: 12px;
+}
+
+#link-footer:hover{
+
+    font-style: bold;
+    color: #49061B;
+}
+
+@media (max-width: 414px){
+
+}
